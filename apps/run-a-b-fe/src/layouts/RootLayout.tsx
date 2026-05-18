@@ -18,7 +18,7 @@ export function RootLayout() {
           Run a B
         </Link>
 
-        <Link to="" className='mr-5 text-sm font-medium text-gray-600'>정책 모아보기</Link>
+        <Link to="/policies" className='mr-5 text-sm font-medium text-gray-600'>정책 모아보기</Link>
         <Link to="" className='text-sm font-medium text-gray-600'>리포트 모아보기</Link>
 
         <div className='ml-auto flex items-center gap-2'>
