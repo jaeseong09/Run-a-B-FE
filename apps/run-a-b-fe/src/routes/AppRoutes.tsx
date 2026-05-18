@@ -5,6 +5,7 @@ import { HomePage } from '@/pages/HomePage'
 import Login from '@/pages/Login'
 import Signup from '@/pages/Signup'
 import MyPage from '@/pages/MyPage'
+import Policies from '@/pages/Policies'
 
 export function AppRoutes() {
   return (
@@ -14,6 +15,7 @@ export function AppRoutes() {
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<Signup />} />
         <Route path="/mypage/*" element={<MyPage />} />
+        <Route path="/policies" element={<Policies></Policies>}></Route>
       </Route>
     </Routes>
   )
